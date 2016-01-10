@@ -1,2 +1,62 @@
 var config = {};
 config.apiUrl = 'http://localhost:6400/';
+config.stations = [
+    {
+        'name': 'Echoes of Cryosleep',
+        'url': 'http://streams.echoesofbluemars.org:8000/cryosleep',
+        'icon': 'http://i.imgur.com/J60LBmD.png',
+        'fetchTrackThumbs': true
+    },
+    {
+        'name': 'Echoes of BlueMars',
+        'url': 'http://streams.echoesofbluemars.org:8000/bluemars',
+        'icon': 'http://i.imgur.com/qLRVJUp.png',
+        'fetchTrackThumbs': true
+    },
+    {
+        'name': 'Nirvana - Meditation',
+        'url': 'http://radio.108.pl:8004/',
+        'icon': 'http://i.imgur.com/avVpnEW.png'
+    },
+    {
+        'name': 'Nirvana - Ambient',
+        'url': 'http://radio.108.pl:8002/',
+        'icon': 'http://i.imgur.com/cqAAnRB.png'
+    },
+    {
+        'name': 'Nirvana - Relaxation',
+        'url': 'http://sc9106.xpx.pl:9106/',
+        'icon': 'http://i.imgur.com/H3gOAva.png'
+    },
+    {
+        'name': 'SomaFM - Groove Salad',
+        'url': 'http://ice.somafm.com:80/groovesalad',
+        'icon': 'http://i.imgur.com/L4PcBA8.png'
+    },
+    {
+        'name': 'BBC World Service',
+        'url': 'http://wsdownload.bbc.co.uk/worldservice/meta/live/shoutcast/mp3/eieuk.pls',
+        'icon': 'http://i.imgur.com/LW22mUU.png'
+    },
+    {
+        'name': 'BBC Radio 4',
+        'url': 'http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourfm/format/pls.pls',
+        'icon': 'http://i.imgur.com/cVOIyFN.png'
+    },
+    {
+        'name': 'BBC Radio 4 Extra',
+        'url': 'http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_four_extra/format/pls.pls',
+        'icon': 'http://i.imgur.com/IDJWJiW.png'
+    },
+    {
+        'name': 'BBC Radio 5 Live',
+        'url': 'http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_five_live/format/pls.pls',
+        'icon': 'http://i.imgur.com/u0ETw9k.png'
+    },
+    {
+        'name': 'VOA English',
+        'url': 'http://voa-28.ng.akacast.akamaistream.net/7/54/322040/v1/ibb.akacast.akamaistream.net/voa-28',
+        'icon': 'http://i.imgur.com/D1GtnEz.png'
+    }
+
+];
