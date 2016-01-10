@@ -1,0 +1,2 @@
+var config = {};
+config.apiUrl = 'http://localhost:6400/';

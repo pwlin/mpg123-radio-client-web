@@ -1,0 +1,21 @@
+/*csslint bulletproof-font-face:false */
+
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/DroidSans.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/DroidSans-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Scout Black';
+  font-style: normal;
+  src: url('../fonts/Scout-Black.woff') format('woff');
+}

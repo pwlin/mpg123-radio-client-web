@@ -1,0 +1,103 @@
+/*csslint compatible-vendor-prefixes:false, box-model:false */
+.left {
+    
+    .current-track-container {
+        padding: 10px;
+        
+        .station-info-container {
+                        
+            .station-logos-container {
+                text-align: center;
+                position: relative;            
+                
+                .station-logo {
+                    border: 1px solid #E2E2E2;
+                }
+                
+                .track-logo {
+                    position: absolute;
+                    z-index: 1;
+                    border: 1px solid #E2E2E2;
+                }
+                    
+            }
+            
+            .station-meta-container {
+                
+                .track-name, .artist-name, .station-name {
+                    text-align: center;
+                    margin-top: 10px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    font-size: larger;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                }    
+                
+            }   
+            
+        }
+        
+        .volume-container {
+            margin-top: 30px;
+            padding-top: 10px;
+            text-align: center;
+            
+            *:focus, *:active {
+                outline: 0;
+            }
+            
+            input[type=range] {
+                -webkit-appearance: none;
+                width: 90%;
+                border-radius: 2px;
+                height: 15px;
+            }
+            
+            input[type='range']::-webkit-slider-thumb {
+                -webkit-appearance: none;
+                background-color: #3C3C3C;
+                border: 4px solid #CC181E;
+                width: 70px;
+                height: 70px;
+                border-radius: 35px;
+                cursor: pointer;
+            }
+            
+        }
+        
+        .buttons-container {
+            margin-top: 20px;
+            text-align: center;
+            
+            .volume-on-container {
+                display: none;
+                cursor: pointer;
+                margin-right: 20px;
+            }
+            
+            .volume-off-container {
+                display: none;
+                cursor: pointer;
+                margin-right: 20px;
+            }
+            
+            .stop-container {
+                margin-right: 20px;
+                cursor: pointer;
+            }
+            
+            .audio-bitrate {
+                display: inline-block;
+                font-size: 2.5em;
+                vertical-align: middle;
+                min-width: 180px;
+            }
+            
+        
+        }
+        
+    }
+}
+

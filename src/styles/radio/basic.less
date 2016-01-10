@@ -1,0 +1,44 @@
+/*csslint outline-none:false, important:false, universal-selector:false, box-sizing:false */
+body {
+    font-family: "Droid Sans", sans-serif;
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	outline: none;
+}
+
+.main-wrapper:after {
+    clear: both;
+}
+
+.main-wrapper > section[class="left"], .main-wrapper > section[class="right"] {
+    min-height: 200px;
+    float: left;
+    width: 50%;
+}
+
+@media all and (max-width: 500px) {
+    .main-wrapper > section[class="left"], .main-wrapper > section[class="right"] {
+        float: none;
+        width: 100%;
+    }
+}
+
+
+.left {}
+
+.right {}
+

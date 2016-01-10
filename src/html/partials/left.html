@@ -1,0 +1,45 @@
+<section class="left">
+	<div class="current-track-container">
+		<div class="station-info-container">
+			<div class="station-logos-container">
+				<img class="track-logo" />
+				<img class="station-logo" width="250" height="250" />
+			</div>
+           	<div class="station-meta-container">
+                <div class="track-name">&nbsp;</div>
+                <div class="artist-name">&nbsp;</div>
+                <div class="station-name">&nbsp;</div>
+           	</div>
+		</div>
+        <div class="volume-container">
+            <input value="0" type="range" min="1" max="100" step="1" oninput="radio.nowPlaying.current.volumeOnInput=true;" onchange="radio.nowPlaying.setVolume(this.value);"/> 
+        </div>
+        <div class="buttons-container">
+        	
+        	<span class="stop-container">         
+                <span class="fa-stack fa-2x" onclick="radio.nowPlaying.stop();">
+                  <i class="fa fa-square fa-stack-2x" style="color:#1A1A1A;"></i>
+                  <i class="fa fa-pause fa-stack-2x"></i>
+                </span>
+            </span>
+        	
+        	<span class="volume-on-container">
+            	<span class="fa-stack fa-3x" onclick="radio.nowPlaying.toggleSound();">
+                  <i class="fa fa-square fa-stack-2x" style="color:#1A1A1A;"></i>
+                  <i class="fa fa-volume-up fa-stack-2x"></i>
+                </span>
+            </span>
+            
+            <span class="volume-off-container">        	
+            	<span class="fa-stack fa-3x" onclick="radio.nowPlaying.toggleSound();">
+                    <i class="fa fa-volume-up fa-stack-1x"></i>
+                    <i class="fa fa-ban fa-stack-2x" style="color:#CC181E;"></i>
+                </span>
+            </span>
+        	
+        	
+        	<div class="audio-bitrate">&nbsp;</div>
+        	
+        </div>
+	</div>
+</section>
